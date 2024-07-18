@@ -4,7 +4,7 @@ class MyTextfield extends StatelessWidget {
 
   final String hintText;
   final bool obsecureText;
-  final TextEditingController controller;
+  final TextEditingController c;
 
   // required - parameter must be passed when calling the function
   // use we do not initialize
@@ -12,7 +12,7 @@ class MyTextfield extends StatelessWidget {
     super.key,
     required this.hintText,
     required this.obsecureText,
-    required this.controller,
+    required this.c,
   });
 
 
